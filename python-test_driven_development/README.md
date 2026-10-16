@@ -14,3 +14,5 @@ This directory contains my work on test-driven development in Python 3, using do
 - `tests/4-print_square.txt`: doctest cases for `4-print_square.py`.
 - `5-text_indentation.py`: a function `text_indentation(text)` that prints a text with 2 new lines after each `.`, `?` and `:`.
 - `tests/5-text_indentation.txt`: doctest cases for `5-text_indentation.py`.
+- `6-max_integer.py`: a function `max_integer(list=[])` that returns the max integer of a list.
+- `tests/6-max_integer_test.py`: unittest cases for `6-max_integer.py`.
