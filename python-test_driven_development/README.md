@@ -16,3 +16,5 @@ This directory contains my work on test-driven development in Python 3, using do
 - `tests/5-text_indentation.txt`: doctest cases for `5-text_indentation.py`.
 - `6-max_integer.py`: a function `max_integer(list=[])` that returns the max integer of a list.
 - `tests/6-max_integer_test.py`: unittest cases for `6-max_integer.py`.
+- `100-matrix_mul.py`: a function `matrix_mul(m_a, m_b)` that multiplies 2 matrices.
+- `tests/100-matrix_mul.txt`: doctest cases for `100-matrix_mul.py`.
