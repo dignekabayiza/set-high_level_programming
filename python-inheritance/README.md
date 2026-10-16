@@ -9,3 +9,4 @@ This directory contains my work on Python inheritance, using the Python 3 interp
 - `3-is_kind_of_class.py`: a function `is_kind_of_class(obj, a_class)` that returns True if the object is an instance of, or inherits from, the specified class.
 - `4-inherits_from.py`: a function `inherits_from(obj, a_class)` that returns True if the object is an instance of a class that inherited (directly or indirectly) from the specified class.
 - `5-base_geometry.py`: an empty class `BaseGeometry`.
+- `6-base_geometry.py`: a class `BaseGeometry` with an `area()` method that raises an Exception because it is not implemented.
