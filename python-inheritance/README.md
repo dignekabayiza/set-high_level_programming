@@ -12,3 +12,4 @@ This directory contains my work on Python inheritance, using the Python 3 interp
 - `6-base_geometry.py`: a class `BaseGeometry` with an `area()` method that raises an Exception because it is not implemented.
 - `7-base_geometry.py`: a class `BaseGeometry` with `area()` and an `integer_validator(name, value)` method that checks a value is an integer greater than 0.
 - `8-rectangle.py`: a class `Rectangle` that inherits from `BaseGeometry` and validates a private width and height.
+- `9-rectangle.py`: a class `Rectangle` that inherits from `BaseGeometry`, implements `area()` and prints as `[Rectangle] <width>/<height>`.
