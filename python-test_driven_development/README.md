@@ -18,3 +18,5 @@ This directory contains my work on test-driven development in Python 3, using do
 - `tests/6-max_integer_test.py`: unittest cases for `6-max_integer.py`.
 - `100-matrix_mul.py`: a function `matrix_mul(m_a, m_b)` that multiplies 2 matrices.
 - `tests/100-matrix_mul.txt`: doctest cases for `100-matrix_mul.py`.
+- `101-lazy_matrix_mul.py`: a function `lazy_matrix_mul(m_a, m_b)` that multiplies 2 matrices using NumPy.
+- `tests/101-lazy_matrix_mul.txt`: doctest cases for `101-lazy_matrix_mul.py`.

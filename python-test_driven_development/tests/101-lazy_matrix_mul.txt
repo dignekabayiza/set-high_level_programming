@@ -1,0 +1,53 @@
+>>> lazy_matrix_mul = __import__('101-lazy_matrix_mul').lazy_matrix_mul
+
+>>> print(lazy_matrix_mul([[1, 2], [3, 4]], [[1, 2], [3, 4]]))
+[[ 7 10]
+ [15 22]]
+
+>>> print(lazy_matrix_mul([[1, 2]], [[3, 4], [5, 6]]))
+[[13 16]]
+
+>>> print(lazy_matrix_mul([[1.5, 2]], [[2], [3]]))
+[[9.]]
+
+>>> print(lazy_matrix_mul([[2]], [[3]]))
+[[6]]
+
+>>> print(lazy_matrix_mul([[1, 2, 3]], [[1], [2], [3]]))
+[[14]]
+
+>>> print(lazy_matrix_mul([[1], [2]], [[3, 4]]))
+[[3 4]
+ [6 8]]
+
+>>> lazy_matrix_mul([[1, 2]], [[1, 2]])  # doctest: +IGNORE_EXCEPTION_DETAIL
+Traceback (most recent call last):
+ValueError: shapes not aligned
+
+>>> lazy_matrix_mul([], [[1]])  # doctest: +IGNORE_EXCEPTION_DETAIL
+Traceback (most recent call last):
+ValueError: shapes not aligned
+
+>>> lazy_matrix_mul([[1]], [])  # doctest: +IGNORE_EXCEPTION_DETAIL
+Traceback (most recent call last):
+ValueError: shapes not aligned
+
+>>> lazy_matrix_mul([[1]], [["a"]])  # doctest: +IGNORE_EXCEPTION_DETAIL
+Traceback (most recent call last):
+TypeError: invalid data type
+
+>>> lazy_matrix_mul("a", [[1]])  # doctest: +IGNORE_EXCEPTION_DETAIL
+Traceback (most recent call last):
+TypeError: invalid data type
+
+>>> lazy_matrix_mul(None, [[1]])  # doctest: +IGNORE_EXCEPTION_DETAIL
+Traceback (most recent call last):
+TypeError: invalid data type
+
+>>> lazy_matrix_mul([[1]])  # doctest: +IGNORE_EXCEPTION_DETAIL
+Traceback (most recent call last):
+TypeError: missing 1 required positional argument
+
+>>> lazy_matrix_mul()  # doctest: +IGNORE_EXCEPTION_DETAIL
+Traceback (most recent call last):
+TypeError: missing 2 required positional arguments
