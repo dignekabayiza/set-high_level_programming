@@ -10,3 +10,5 @@ This directory contains my work on test-driven development in Python 3, using do
 - `tests/2-matrix_divided.txt`: doctest cases for `2-matrix_divided.py`.
 - `3-say_my_name.py`: a function `say_my_name(first_name, last_name="")` that prints `My name is <first name> <last name>`.
 - `tests/3-say_my_name.txt`: doctest cases for `3-say_my_name.py`.
+- `4-print_square.py`: a function `print_square(size)` that prints a square with the character `#`.
+- `tests/4-print_square.txt`: doctest cases for `4-print_square.py`.
