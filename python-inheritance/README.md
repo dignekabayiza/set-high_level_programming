@@ -15,3 +15,4 @@ This directory contains my work on Python inheritance, using the Python 3 interp
 - `9-rectangle.py`: a class `Rectangle` that inherits from `BaseGeometry`, implements `area()` and prints as `[Rectangle] <width>/<height>`.
 - `10-square.py`: a class `Square` that inherits from `Rectangle`, with a private validated size and an `area()` method.
 - `11-square.py`: a class `Square` that inherits from `Rectangle`, implements `area()` and prints as `[Square] <width>/<height>`.
+- `100-my_int.py`: a class `MyInt` that inherits from `int` and has the `==` and `!=` operators inverted.
