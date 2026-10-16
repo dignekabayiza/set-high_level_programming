@@ -10,3 +10,4 @@ This directory contains my work on Python inheritance, using the Python 3 interp
 - `4-inherits_from.py`: a function `inherits_from(obj, a_class)` that returns True if the object is an instance of a class that inherited (directly or indirectly) from the specified class.
 - `5-base_geometry.py`: an empty class `BaseGeometry`.
 - `6-base_geometry.py`: a class `BaseGeometry` with an `area()` method that raises an Exception because it is not implemented.
+- `7-base_geometry.py`: a class `BaseGeometry` with `area()` and an `integer_validator(name, value)` method that checks a value is an integer greater than 0.
