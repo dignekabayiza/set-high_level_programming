@@ -1,0 +1,31 @@
+>>> MyList = __import__('1-my_list').MyList
+
+>>> my_list = MyList()
+>>> my_list.append(1)
+>>> my_list.append(4)
+>>> my_list.append(2)
+>>> my_list.append(3)
+>>> my_list.append(5)
+>>> print(my_list)
+[1, 4, 2, 3, 5]
+>>> my_list.print_sorted()
+[1, 2, 3, 4, 5]
+>>> print(my_list)
+[1, 4, 2, 3, 5]
+
+>>> empty = MyList()
+>>> empty.print_sorted()
+[]
+
+>>> negatives = MyList([3, -1, -5, 0])
+>>> negatives.print_sorted()
+[-5, -1, 0, 3]
+>>> print(negatives)
+[3, -1, -5, 0]
+
+>>> dupes = MyList([2, 2, 1])
+>>> dupes.print_sorted()
+[1, 2, 2]
+
+>>> isinstance(dupes, list)
+True
