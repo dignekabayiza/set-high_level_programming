@@ -16,3 +16,4 @@ This directory contains my work on Python inheritance, using the Python 3 interp
 - `10-square.py`: a class `Square` that inherits from `Rectangle`, with a private validated size and an `area()` method.
 - `11-square.py`: a class `Square` that inherits from `Rectangle`, implements `area()` and prints as `[Square] <width>/<height>`.
 - `100-my_int.py`: a class `MyInt` that inherits from `int` and has the `==` and `!=` operators inverted.
+- `101-add_attribute.py`: a function `add_attribute(obj, name, value)` that adds a new attribute to an object if it is possible, otherwise raises a TypeError.
