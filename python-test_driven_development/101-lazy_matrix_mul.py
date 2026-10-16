@@ -14,7 +14,17 @@ def lazy_matrix_mul(m_a, m_b):
         m_b (list): a list of lists of integers or floats.
 
     Raises:
-        Whatever exception NumPy raises when the matrices are invalid
-        or can't be multiplied.
+        TypeError: if m_a or m_b is not a list or has non-numbers.
     """
+    for name, mat in (("m_a", m_a), ("m_b", m_b)):
+        if not isinstance(mat, list):
+            raise TypeError("{} must be a list".format(name))
+    for name, mat in (("m_a", m_a), ("m_b", m_b)):
+        for row in mat:
+            if isinstance(row, list):
+                for item in row:
+                    if not isinstance(item, (int, float)):
+                        raise TypeError(
+                            "{} should contain only integers or "
+                            "floats".format(name))
     return numpy.matmul(m_a, m_b)

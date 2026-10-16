@@ -38,7 +38,7 @@ TypeError: invalid data type
 
 >>> lazy_matrix_mul("a", [[1]])  # doctest: +IGNORE_EXCEPTION_DETAIL
 Traceback (most recent call last):
-TypeError: invalid data type
+TypeError: m_a must be a list
 
 >>> lazy_matrix_mul(None, [[1]])  # doctest: +IGNORE_EXCEPTION_DETAIL
 Traceback (most recent call last):
