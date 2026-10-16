@@ -12,3 +12,5 @@ This directory contains my work on test-driven development in Python 3, using do
 - `tests/3-say_my_name.txt`: doctest cases for `3-say_my_name.py`.
 - `4-print_square.py`: a function `print_square(size)` that prints a square with the character `#`.
 - `tests/4-print_square.txt`: doctest cases for `4-print_square.py`.
+- `5-text_indentation.py`: a function `text_indentation(text)` that prints a text with 2 new lines after each `.`, `?` and `:`.
+- `tests/5-text_indentation.txt`: doctest cases for `5-text_indentation.py`.
