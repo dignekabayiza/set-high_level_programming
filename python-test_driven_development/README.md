@@ -8,3 +8,5 @@ This directory contains my work on test-driven development in Python 3, using do
 - `tests/0-add_integer.txt`: doctest cases for `0-add_integer.py`.
 - `2-matrix_divided.py`: a function `matrix_divided(matrix, div)` that divides all elements of a matrix by a number, rounded to 2 decimal places.
 - `tests/2-matrix_divided.txt`: doctest cases for `2-matrix_divided.py`.
+- `3-say_my_name.py`: a function `say_my_name(first_name, last_name="")` that prints `My name is <first name> <last name>`.
+- `tests/3-say_my_name.txt`: doctest cases for `3-say_my_name.py`.
