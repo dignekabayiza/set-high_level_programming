@@ -81,3 +81,21 @@ Missing arguments:
     Traceback (most recent call last):
     ...
     TypeError: ...
+
+Only one argument:
+
+    >>> bg.integer_validator("age")  # doctest: +ELLIPSIS
+    Traceback (most recent call last):
+    ...
+    TypeError: ...
+
+Too many arguments:
+
+    >>> bg.integer_validator("age", 1, 2)  # doctest: +ELLIPSIS
+    Traceback (most recent call last):
+    ...
+    TypeError: ...
+
+Valid value after name:
+
+    >>> bg.integer_validator("age", 1)
